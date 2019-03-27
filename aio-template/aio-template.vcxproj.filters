@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="ChampionPlugin.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeProcessor.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AsheComboProcessor.hpp">
+      <Filter>Plugins\Ashe</Filter>
+    </ClInclude>
+    <ClInclude Include="AshePlugin.h">
+      <Filter>Plugins\Ashe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="ChampionPlugin.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="AshePlugin.cpp">
+      <Filter>Plugins\Ashe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f277d096-c237-44b5-9668-8ae83efdf123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{6fa56c92-0595-4931-a95c-3b2010b51cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Ashe">
+      <UniqueIdentifier>{eed59424-807f-4676-bdec-4f055a75f166}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
